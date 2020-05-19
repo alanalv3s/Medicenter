@@ -36,6 +36,7 @@ a{
     margin: 0;
     padding: 0;
     text-decoration: none;
+    color: black;
 }
 nav ul {
     display: flex;
@@ -116,7 +117,7 @@ nav a:hover {
     background-color: #0079c1;
 }
 .card3 {
-    background-color: #2b4c99;
+    background-color: #00478a;
 }
 .card-title {
     font-size: 24px;
@@ -180,7 +181,7 @@ nav a:hover {
     display: flex;
 }
 .news .posted-at {
-    background-color: #2b4c99;
+    background-color: #00478a;
     color: white;
     font-size: 14px;
     padding: 10px;
@@ -209,4 +210,41 @@ nav a:hover {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 30px;
+}
+
+.department {
+    flex: 1;
+    background-color: #0079c1;
+    padding: 70px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.appointment-title {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 12px;
+}
+.appointment-contact {
+    display: flex;
+}
+.contact {
+    padding: 12px;
+    border-bottom: 1px solid #bdbdbd;
+}
+.contact:first-of-type {
+    border-top: 1px solid #bdbdbd;
+}
+.contact a {
+    display: flex;
+    align-items: center;
+}
+.contact i {
+    flex: 1;
+    color: #00478a;
+}
+.contact span {
+    flex: 6;
 }
