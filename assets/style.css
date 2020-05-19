@@ -54,6 +54,7 @@ nav .active a,
 nav a:hover {
     background-color: #39aae1;
     color: #ffffff;
+    border-radius: 4px;
 }
 
 .banner {
@@ -119,7 +120,7 @@ nav a:hover {
 }
 .card-desc {
     font-size: 14px;
-    margin: 20px auto;
+    margin:18px auto;
 }
 .banner-options a {
     display: inline-block;
@@ -130,12 +131,38 @@ nav a:hover {
 }
 .card-hours {
     display: flex;
-    margin: 16px auto;
+    margin: 14px auto;
     border-bottom: 1px solid rgba(255, 255, 255, 0.253);
-    padding: 8px;
+    padding: 8px 0px;
     font-size: 14px;
 }
 .card-hours span {
     flex: 1;
     text-align: right;
+}
+
+.general {
+    display: flex;
+    justify-content: center;
+}
+.general section {
+    flex: 2;
+}
+.general aside {
+    flex: 1;
+}
+
+.widget-title {
+    margin: 30px auto 20px;
+}
+.widget-title-text {
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+}
+.widget-title-bar {
+    width: 60px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 8px;
 }
