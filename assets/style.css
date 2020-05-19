@@ -65,6 +65,10 @@ nav a:hover {
     background-size: cover;
     height: 670px;
 }
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
 .column {
     flex-direction: column;
 }
@@ -167,19 +171,42 @@ nav a:hover {
     margin-top: 8px;
 }
 
-article .news-date {
+.news {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+.news .date {
     display: flex;
 }
-article .news-posted-at {
+.news .posted-at {
     background-color: #2b4c99;
     color: white;
     font-size: 14px;
     padding: 10px;
     margin-right: 2px;
 }
-article .news-comments {
+.news .comments {
     background-color: #39aae1;
     color: white;
     font-size: 14px;
     padding: 10px;
+}
+.news .thumb {
+    margin-top: 30px;
+}
+.news .thumb img {
+    width: 100%;
+    height: auto;
+}
+.news .title {
+    margin: 25px 0;
+    color: black;
+    font-size: 24px;
+}
+.news .resume {
+    color: #5c5c5c;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
 }
